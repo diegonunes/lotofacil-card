@@ -1,0 +1,151 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+h1,
+p,
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cartela {
+  width: 600px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.cartela-header {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  background-color: darkmagenta;
+  margin: 0;
+  padding: 0;
+}
+
+.cartela-header h1 {
+  font-size: 5rem;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.cartela > p {
+  padding: 10px;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  text-align: center;
+  color: darkmagenta;
+}
+
+.cartela-numeros-aposta-container {
+  background-color: lightyellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 20px;
+  margin: 20px;
+  border: 1px solid darkmagenta;
+  border-radius: 25px;
+}
+
+.grid-numeros-aposta {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  writing-mode: vertical-rl;
+}
+
+.grid-numeros-aposta .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkmagenta;
+  background-color: white;
+  border: 1px solid darkmagenta;
+}
+
+.cartela-numeros-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 20px;
+}
+
+.grid {
+  display: grid;
+  flex: 1;
+  grid-template-columns: repeat(10, 1fr);
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.grid .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkmagenta;
+  border-top: 1px solid darkmagenta;
+  border-bottom: 1px solid darkmagenta;
+  border-radius: 5px;
+  transform: rotate(90deg);
+  width: 1vw;
+}
+
+h6 {
+  color: red;
+  font-size: 0.8rem;
+  font-weight: normal;
+  margin: 0 20px;
+}
+
+.pre-footer {
+  background-color: lightyellow;
+  padding-top: 1px;
+}
+
+.pre-footer > p {
+  color: darkmagenta;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.darkblue {
+  color: darkblue;
+}
+
+.pre-footer > p .numeros {
+  font-size: 1.5rem;
+  letter-spacing: -0.1rem;
+}
+
+.pre-footer > p .ganhe {
+  color: red;
+  font-size: 1.4rem;
+  letter-spacing: -0.1rem;
+}
+
+.footer {
+  background-color: darkmagenta;
+}
+
+.footer h4 {
+  color: white;
+  font-size: 0.85rem;
+  letter-spacing: -0.1rem;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
